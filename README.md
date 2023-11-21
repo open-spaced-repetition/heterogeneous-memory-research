@@ -10,7 +10,7 @@ Here are some key points that I want to drive into.
 - If we disregard the difference in card content and treat cards with similar review histories as one entity, the stability and difficulty we measure only represents an average of the group, not addressing the issue of heterogeneity.
 - Due to data heterogeneity, any memory model trained on review logs essentially estimates the mean memory states (stability, difficulty, and more). The laws governing changes in the mean may not necessarily apply to individual memory changes. Changes in distribution may be the primary factor behind mean transformations.
 
-The good news is that stability tends to converge under the same review history, and each rating effectively filters heterogeneous memories, thereby possibly reducing long-term memory heterogeneity.
+The bad news is that stability doesn't tend to converge under the same review history. The coefficient of variation doesn't decrease in the simulation.
 
 ## Everything is a distribution
 
